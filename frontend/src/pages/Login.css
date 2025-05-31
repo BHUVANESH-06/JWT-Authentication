@@ -1,0 +1,154 @@
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F0F4FF;
+    padding: 1rem;
+  }
+  
+  .login-card {
+    width: 100%;
+    max-width: 768px;
+    background-color: white;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow: hidden;
+  }
+  
+  @media (min-width: 768px) {
+    .login-card {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  .login-form-section {
+    padding: 2.5rem;
+    background-color: #f3f6fc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .login-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #333;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    color: #555;
+  }
+  
+  .form-group input {
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    transition: border 0.3s ease;
+  }
+  
+  .form-group input:focus {
+    border: 2px solid #A1B2D4;
+    outline: none;
+  }
+  
+  .login-button {
+    background-color: #A1B2D4;
+    color: #000;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #B7C9E8;
+    transform: scale(1.05);
+  }
+  
+  .google-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border: 1px solid #ccc;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .google-button:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.05);
+  }
+  
+  .google-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  
+  .signup-link {
+    font-size: 0.9rem;
+    text-align: center;
+    color: #666;
+  }
+  
+  .signup-link span {
+    color: #0000ff;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.875rem;
+    text-align: center;
+  }
+  
+  .login-animation {
+    position: relative;
+    background-color: white;
+    padding-top: 1rem;
+  }
+  
+  .animation-frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+  .animation-title {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+  }
+  
